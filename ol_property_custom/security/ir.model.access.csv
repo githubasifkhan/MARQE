@@ -1,0 +1,4 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_property_building,access.property.building,model_property_building,,1,1,1,1
+access_property_floor,access.property.floor,model_property_floor,,1,1,1,1
+access_post_date_checks,access.post.date.checks,model_post_date_checks,,1,1,1,1
