@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="ol_sale_agrement" model="ir.actions.report">
+        <field name="name">Sale Agrement</field>
+        <field name="model">sale.order</field>
+        <field name="report_type">qweb-pdf</field>
+        <field name="report_name">ol_sales_agreement_report.report_sale_purchase_agrement</field>
+        <field name="report_file">ol_sales_agreement_report.report_sale_purchase_agrement</field>
+        <field name="attachment">('sale_agrement.pdf')</field>
+        <field name="binding_type">report</field>
+    </record>
+
+</odoo>

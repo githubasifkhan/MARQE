@@ -1,0 +1,696 @@
+<odoo>
+    <data>
+        <template id="report_sale_purchase_agrement_doc">
+            <t t-call="web.basic_layout">
+                <!-- HEADING -->
+                
+                <table style="border:none;  width:100%; ">
+                    <tr style="text-align:center">
+                        <td style="width:50% text-align:center">
+                            <span style="font-size: 22px; font-weight: bold; text-align: left;">
+                                SALE AND PURCHASE AGREEMENT
+                            </span>
+                        </td>
+                        
+                        <td style="width:50% text-align:left">
+                            <span style="font-size: 24px; font-weight: bold; text-align: right;">
+                                اتفاقية بيع وشراء
+                            </span>
+                        </td>
+
+                    </tr> 
+                    <tr style="text-align:center">
+                        <td style="width:50% text-align:center">
+                            <span style="font-size: 22px; font-weight: bold; text-align: left;">
+                            PARTICULARS:
+                        </span>
+                        </td>
+                       
+                        <td style="width:50%">
+                            <span style="font-size: 16px; font-weight: bold; text-align: right;">
+                                التفاصيل
+                            </span>
+                        </td>
+                    </tr> 
+
+                </table> 
+                <br/>
+                <!-- TABLE -->
+                
+                <table class="table table-bordered" style=" width:100%; vertical-align: top; ">
+                    <tr >
+                      
+                            <th style="widht:15%">
+                                1
+                            </th >
+                            <th style="widht:30%">
+                                Effective Date: 
+                            </th>
+                            <th style="widht:25%" >
+                                
+                            </th>
+                            <td style="widht:25%">
+                              <span style="float:right;">
+                                :
+                                تاريخ النفاذ</span>
+                              
+                            </td>
+                            <th style="widht:15%">
+                                -1
+                            </th>
+                        
+                        
+                    </tr> 
+                    <tr>
+                            <th style="widht:15%">
+                                2
+                            </th>
+                            <th style="widht:30%">
+                                Developer: MARQUIS CIRCLE REAL ESTATE DEVELOPER LLC, a limited company operating under commercial licence number 818744, whose address is P.O. Box [Insert], Dubai, UAE.
+                            </th>
+                            <th>
+                               
+                            </th>
+                            <th>
+                              <span style="widht:30% float:right;">
+                                المطور: ماركيز بوينت للعقارات ش.ذ.م.م , شركة ذات مسئولية محدودة تعمل تحت الرخصة التجارية رقم 818744 و عنوانها ص.ب [●], دبي , الامارات العربية المتحدة.
+                              </span>
+                            </th>
+                            <th style="widht:15%">
+                                -2
+                            </th>
+                        </tr>
+                         <tr>
+                            <td>
+                                3
+                            </td>
+                                                        <td>
+                                Purchaser 1: 
+                            </td>
+                                                        <td>
+                                Insert
+                            </td>
+                            
+                            <td>
+                              <span style="float:right;">
+                                
+                                    :
+                                        لمشتري 1
+                              </span>
+                            </td>
+                            <td>
+                             -3
+                            </td>
+                            
+
+                        </tr>
+                        
+                        <tr>
+                            <td>
+                                
+                            </td>
+                                                        <td>
+                                    <span style="font-weight: bold">For individual:</span>
+                                    <br></br>
+                                    Nationality:<br></br>
+                                    Passport No:<br></br>
+                                    Address:<br></br>
+                                    Fax No:<br></br>
+                                    Phone No:<br></br>
+                                    Email address:
+ 
+                            </td>
+                                                        <td>
+                                
+                            </td>
+                            
+                            <td>
+                              <span style="float:right;">
+                                    <span style="font-weight: bold">
+                                    :فيما يتعلق بالأشخاص
+                                </span>
+                                    <br></br>
+                                    :الجنسية  
+                                    <br></br>
+                                    :رقم جواز السفر 
+                                    <br></br>
+                                    :العنوان
+                                    <br></br>
+                                    :رقم الفاكس
+                                    <br></br>
+                                    :رقم الهاتف
+                                    <br></br>
+                                    :البريد الإلكتروني
+                              </span>
+                            </td>
+                            <td>
+                                2
+                            </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    
+                                </td>
+                                                            <td>
+                                     
+                                </td>
+                                                            <td>
+                                    
+                                </td>
+                                
+                                <td>
+                                  <span style="float:right;"></span>
+                                </td>
+                                <td>
+
+                                </td>
+    
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    
+                                </td>
+                                                            <td>
+                                        <span style="font-weight: bold">For individual:</span>
+                                        <br></br>
+                                        For company:<br></br>
+                                        Place of Incorporation:<br></br>
+                                        Registration No:<br></br>
+                                        Address:<br></br>
+                                        Phone No:<br></br>
+                                        Fax No:<br></br>
+                                        Email address:
+     
+                                </td>
+                                                            <td>
+                                    
+                                </td>
+                                
+                                <td>
+                                  <span style="float:right;">
+                                        <span style="font-weight: bold">
+                                        :فيما يتعلق بالشركات
+                                    </span>
+                                        <br></br>
+                                        :مرخصة في  
+                                        <br></br>
+                                        :رقم الترخيص 
+                                        <br></br>
+                                        :العنوان
+                                        <br></br>
+                                        :رقم الهاتف
+                                        <br></br>
+                                        :رقم الفاكس
+                                        <br></br>
+                                        :البريد الإلكتروني
+                                  </span>
+                                </td>
+                                <td>
+                                    2
+                                </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        
+                                    </td>
+                                                                <td>
+                                         
+                                    </td>
+                                                                <td>
+                                        
+                                    </td>
+                                    
+                                    <td>
+                                      <span style="float:right;"></span>
+                                    </td>
+                                    <td>
+                                        
+                                    </td>
+                                    
+        
+                                </tr>
+                                <tr>
+                                    <td>
+                                        
+                                    </td>
+                                                                <td>
+                                            Purchaser 2:
+                                    </td>
+                                                                <td>
+                                               insert                   
+                                    </td>   
+                                    <td>
+                                        :المشتري 2                     
+                                        
+                                    </td>
+                                    
+                                    <td>
+                                      <span style="float:right;"></span>
+                                    </td>
+                                    
+        
+                                </tr>
+                                <tr>
+                                    <td>
+                                        
+                                    </td>
+                                                                <td>
+                                            <span style="font-weight: bold">For individual:</span>
+                                            <br></br>
+                                            For individual:<br></br>
+                                            Nationality:<br></br>
+                                            Passport No:<br></br>
+                                            Address:<br></br>
+                                            Fax No:<br></br>
+                                            
+                                            Fax No:<br></br>
+                                            Phone No:<br></br>
+                                            Email address:
+         
+                                    </td>
+                                                                <td>
+                                        
+                                    </td>
+                                    
+                                    <td>
+                                      <span style="float:right;">
+                                            <span style="font-weight: bold">
+                                            :فيما يتعلق بالشركات
+                                        </span>
+                                            <br></br>
+                                            :فيما يتعلق بالأشخاص
+                                            <br></br>
+                                            :الجنسية 
+                                            <br></br>
+                                            :رقم جواز السفر
+                                            <br></br>
+                                            :العنوان:
+                                            <br></br>
+                                            :رقم الفاكس
+                                            <br></br>
+                                            :رقم الهاتف<br></br>
+                                            :البريد الإلكتروني
+                                      </span>
+                                    </td>
+                                    <td>
+                                        2
+                                    </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            
+                                        </td>
+                                                                    <td>
+                                             
+                                        </td>
+                                                                    <td>
+                                            
+                                        </td>
+                                        
+                                        <td>
+                                          <span style="float:right;"></span>
+                                        </td>
+                                        <td></td>
+            
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            
+                                        </td>
+                                                                    <td>
+                                                <span style="font-weight: bold">For individual:</span>
+                                                <br></br>
+                                                Place of Incorporation:<br></br>
+                                                Registration No:<br></br>
+                                                Address::<br></br>
+                                                Phone No:<br></br>
+                                                Fax No:<br></br>
+                                                Email address:
+             
+                                        </td>
+                                                                    <td>
+                                            
+                                        </td>
+                                        
+                                        <td>
+                                          <span style="float:right; font-weight: bold">
+                                                <span style="font-weight: bold">
+                                                :فيما يتعلق بالشركات
+                                            </span>
+                                                <br></br>
+                                                :فيما يتعلق بالشركات
+                                                <br></br>
+                                                :مرخصة في
+                                                <br></br>
+                                                :رقم الترخيص
+                                                <br></br>
+                                                :العنوان:
+                                                <br></br>
+                                                :رقم الهاتف
+                                                <br></br>
+                                                :رقم الفاكس<br></br>
+                                                :البريد الإلكتروني
+                                          </span>
+                                        </td>
+                                        <td>
+                                            2
+                                        </td>
+                                        </tr>
+                                  
+                        
+                    
+
+                </table> 
+                 <table class="table table-bordered" style=" width:100%; vertical-align: top; ">
+                   
+                                        <tr>
+                                            <td>
+                                                4:
+                                            </td>
+                                                                        <td>
+                                                    Project:
+                                            </td>
+                                                                        <td>
+                                                 Marquis Signature                   
+                                            </td>   
+                                            <td> <span style="float:right;">
+                                            :المشروع                     
+                                        </span>
+                                            </td>
+                                            
+                                            <td>
+                                              <span style="float:left;">-4</span>
+                                            </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    
+                                                </td>
+                                                                            <td>
+                                                        <span style="font-weight: bold">Property Details:</span>
+                                                    
+                                                    <td>
+                                                        <table border="2" bordercolor="blue">
+                                                            <tr>
+                                                                <td>Location</td>
+                                                                
+                                                                <td><sapn style="color: red;">
+                                                                    Plot No. 118, 
+                                                                    Next to 
+                                                                    Resortz By 
+                                                                    Danube, Al 
+                                                                    Barsha South 3rd,
+                                                                     Arjan Dubai, UAE.</sapn></td>
+                                                                    
+                                                                    
+                                                                <td><sapn style="color: red;"> قطعة رقم 119 بجوار ريسورتز من
+                                                                     دانوب –البرشاء 
+                                                                     جنوب 3– 
+                                                                     أرجان
+                                                                      – دبي – الإمارات </sapn></td>
+                                                                    
+                                                                <td>الموقع</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>Relevant Unit Number:</td>
+                                                                <sapn style="color: red;">
+                                                                <td>[Insert], as identified in the Relevant Unit Plan.</td>
+                                                                    </sapn>
+                                                                    <sapn style="color: white;">
+                                                                <td>[●] حسب ما هو مبين في مخطط الوحدة المعنية.</td>
+                                                                    </sapn>
+                                                                <td> رقم الوحدة المعنية:</td>
+
+                                                            </tr>    
+                                                            <tr>
+                                                                <td>Relevant Unit Area: </td>
+                                                                <sapn style="color: red;">
+                                                                <td>[Insert] square feet (including balconies and terraces).</td>
+                                                                    </sapn>
+                                                                    <sapn style="color: white;">
+                                                                <td>[●] قدم مربع (بما في ذلك الشرفات والردهات). </td>
+                                                                    </sapn>
+                                                                <td> رمساحة الوحدة المعنية:</td>
+
+                                                            </tr> 
+
+                                                            <tr style="align-items: center">
+                                                                <span style="align-items: center; vertical-align: middle;">
+                                                                <td>Parking Bays No:</td>
+                                                                
+                                                                <td>[Insert] (if any).</td>
+                                                                    
+                                                                    
+                                                                <td>عدد مواقف السيارات: </td>
+                                                                    
+                                                                </span>
+
+                                                            </tr>  
+                                                            <tr>
+
+                                                            </tr>  
+
+                                                        </table> 
+                                                    </td>
+                                                        
+                                                    
+                                                <td>
+                                                  <span style="float:right; font-weight: bold">
+                                                        <span style="font-weight: bold">
+                                                           :تفاصيل العقار
+                                                    </span>
+                                                        
+                                                  </span>
+                                                </td>
+                                                <td>
+                                                    -5
+                                                </td>
+                                            </td>
+                                                </tr>
+
+
+                                                <!-- column 6 -->
+                                                <tr>
+                                                    <td>
+                                                        5
+                                                    </td>
+                                                                                <td>
+                                                            <span style="font-weight: bold">Purchase Price:</span>
+                                                        
+                                                        <td>
+                                                            <table border="2" bordercolor="blue">
+                                                                <tr>
+                                                                    <td>AED[Insert], payable in accordance with the Payment Schedule.</td>
+                                                                    
+                                                                    <td><sapn style="color: red;">
+                                                                        [●] درهم إماراتي يستحق حسب جدول الدفع.</sapn></td>
+                                                                        
+                                                                        
+                                                                    
+                                                                                                                        </tr>    
+                                                                
+    
+                                                                 
+                                                                <tr>
+    
+                                                                </tr>  
+    
+                                                            </table> 
+                                                        </td>
+                                                            
+                                                        
+                                                    <td>
+                                                      <span style="float:right; font-weight: bold">
+                                                            <span style="font-weight: bold">
+                                                               :سعر الشراء
+                                                        </span>
+                                                            
+                                                      </span>
+                                                    </td>
+                                                    <td>
+                                                        -6
+                                                    </td>
+                                                </td>
+                                                    </tr>
+                                                
+                                                        <!-- coulms 7 -->
+                                                        <tr>
+                                                            <td>
+                                                                
+                                                            </td>
+                                                                                        <td>
+                                                                    <span style="font-weight: bold">Escrow Account:</span>
+                                                                
+                                                                <td>
+                                                                    <table border="2" bordercolor="blue">
+                                                                        <tr>
+                                                                            <td>Account Name</td>
+                                                                            
+                                                                            <td><sapn style="color: black;">
+                                                                                MARQUIS CIRCLE REAL ESTATE DEVELOPER LLC.</sapn></td>
+                                                                                
+                                                                                
+                                                                            <td><sapn style="color: red;"> اسم الحساب:</sapn></td>
+                                                                                
+                                                                            
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>Account No:</td>
+                                                                            <sapn style="color: red;">
+                                                                            <td>3718331820701</td>
+                                                                                </sapn>
+                                                                                <sapn style="color: white;">
+                                                                            <td>[●] رقم الحساب</td>
+                                                                                </sapn>
+                                                                            
+            
+                                                                        </tr>    
+                                                                        <tr>
+                                                                            <td>IBAN: </td>
+                                                                            <sapn style="color: red;">
+                                                                            <td>AE850340003718331820701.</td>
+                                                                                </sapn>
+                                                                                
+                                                                            
+            
+                                                                        </tr> 
+            
+                                                                        <tr style="align-items: center">
+                                                                            <span style="align-items: center; vertical-align: middle;">
+                                                                            <td>SWIFT:</td>
+                                                                            
+                                                                            <td>MEBLAEAD.</td>
+                                                                                
+                                                                                
+                                                                            
+                                                                                
+                                                                            </span>
+            
+                                                                        </tr>  
+                                                                        <tr>
+            
+                                                                        </tr>  
+            
+                                                                    </table> 
+                                                                </td>
+                                                                    
+                                                                
+                                                            <td>
+                                                              <span style="float:right; font-weight: bold">
+                                                                    <span style="font-weight: bold">
+                                                                       :حساب الضمان
+                                                                </span>
+                                                                    
+                                                              </span>
+                                                            </td>
+                                                            <td>
+                                                                -7
+                                                            </td>
+                                                        </td>
+                                                            </tr>
+                                                   
+                                                            <!-- column 8 -->
+                                                            <tr>
+                                                                <td>
+                                                                    7
+                                                                </td>
+                                                                                            <td>
+                                                                        <span style="font-weight: bold">Anticipated Completion Date:</span>
+                                                                        
+                                     
+                                                                </td>
+                                                                                            <td>
+                                                                                                <span>31 December 2023, </span>
+                                                                                                subject to extension in accordance with Clause 4.1.
+                                                                    
+                                                                </td>
+                                                                <td>
+                                                                    <span>31 ديسمبر 2023  </span>
+                                                                    مع الالتزام بالتمديد بموجب البند 4-1. 
+                                                                </td>
+                                                                
+                                                                <td>
+                                                                  <span style="float:right;">
+                                                                        <span style="font-weight: bold">
+                                                                        :تاريخ الإنجاز المتوقع
+                                                                    </span>
+                                                                </span>
+                                                                </td>
+                                                                <td>
+                                                                    -8
+                                                                </td>
+                                                                </tr>
+
+                                                                <!-- column 9 -->
+                                                                <tr>
+                                                                    <td>
+                                                                        7
+                                                                    </td>
+                                                                                                <td>
+                                                                            <span style="font-weight: bold">Permitted Use::</span>
+                                                                            
+                                         
+                                                                    </td>
+                                                                                                <td>
+                                                                                                    Residential unit (single family dwelling only).
+                                                                        
+                                                                    </td>
+                                                                    <td>
+                                                                        وحدة سكنية لاستخدام سكن عائلة واحدة فقط. 
+                                                                    </td>
+                                                                    
+                                                                    <td>
+                                                                      <span style="float:right;">
+                                                                            <span style="font-weight: bold">
+                                                                            :الاستخدام المصرح به:
+                                                                        </span>
+                                                                    </span>
+                                                                    </td>
+                                                                    <td>
+                                                                        -9
+                                                                    </td>
+                                                                    </tr>
+                                                                    <!-- column 10 -->
+                                                                    <tr>
+                                                                        <td>
+                                                                            9
+                                                                        </td>
+                                                                                                    <td>
+                                                                                <span style="font-weight: bold">Late Payment Fee:</span>
+                                                                                
+                                             
+                                                                        </td>
+                                                                                                    <td>
+                                                                                                        1% per month.
+                                                                            
+                                                                        </td>
+                                                                        <td>
+                                                                            % شهرياً.1  
+                                                                        </td>
+                                                                        
+                                                                        <td>
+                                                                          <span style="float:right;">
+                                                                                <span style="font-weight: bold">
+                                                                                    :رسم الدفعة المتأخرة
+                                                                            </span>
+                                                                        </span>
+                                                                        </td>
+                                                                        <td>
+                                                                            -10
+                                                                        </td>
+                                                                        </tr>
+                </table> 
+                
+            </t>
+        </template>
+        <template id="report_sale_purchase_agrement">
+            <t t-call="web.html_container">
+                <t t-foreach="docs" t-as="o">
+                    <t t-call="ol_sales_agreement_report.report_sale_purchase_agrement_doc" t-lang="lang"/>
+                </t>
+            </t>
+        </template>
+
+    </data>
+</odoo>
