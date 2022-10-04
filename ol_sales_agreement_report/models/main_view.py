@@ -24,3 +24,8 @@ import datetime
 #             'target': 'new'
 #         }
     
+class inheritincompany(models.Model):
+    _inherit = 'res.company'
+
+    image = fields.Image(string='Image')
+

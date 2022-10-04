@@ -72,7 +72,7 @@
                     <tr>
                     <td style="width: 5%; border-top: 1px solid black; border-right: 1px solid black; border-left: 1px solid black; text-align: center; font-size: 13px;"><strong> </strong></td>
                     <td style="width: 15%; border-top: 1px solid black; border-right: 1px solid black; border-left: 1px solid black; font-size: 13px; padding-left: 4px;"><strong>For individual:</strong> <br/> Nationality <br /> Passport No: <br /> Fax No: <br /> Phone No: <br />Email address:</td>
-                        <td style="width: 60%; border-top: 1px solid black; border-right: 1px solid black; border-left: 1px solid black; font-size: 13px; padding-left: 4px;"><br/><span  style="font-size:12px;padding-left:4px;" t-field="s.purchase_1_individual.country_id.name"/><span  style="font-size:12px;padding-left:70%;" t-field="s.purchase_1_individual.country_arabic.name"/><br/><span  style="font-size:12px;padding-left:4px;" t-field="s.purchase_1_individual.passport_eng"/><span  style="font-size:12px;padding-left:72%;" t-field="s.purchase_1_individual.passport_arabic"/><br/><span  style="font-size:12px;padding-left:4px;" t-field="s.purchase_1_individual.fax_eng"/><span  style="font-size:12px;padding-left:70%;" t-field="s.purchase_1_individual.fax_arabic"/><br/><span  style="font-size:12px;padding-left:4px;" t-field="s.purchase_1_individual.phone"/><span  style="font-size:12px;padding-left:70%;" t-field="s.purchase_1_individual.phone"/><br/><span  style="font-size:12px;padding-left:4px;" t-field="s.purchase_1_individual.email"/><span  style="font-size:12px;padding-left:30%;" t-field="s.purchase_1_individual.email"/></td>
+                        <td style="width: 60%; border-top: 1px solid black; border-right: 1px solid black; border-left: 1px solid black; font-size: 13px; padding-left: 4px;" class="arabic"><br/><span  style="font-size:12px;padding-left:4px;" t-field="s.purchase_1_individual.country_id.name"/><span  style="font-size:12px;padding-left:60%;text-right arabic" t-field="s.purchase_1_individual.country_arabic.name"/><br/><span  style="font-size:12px;padding-left:4px;" t-field="s.purchase_1_individual.passport_eng"/><span  style="font-size:12px;padding-left:72%;" t-field="s.purchase_1_individual.passport_arabic"/><br/><span  style="font-size:12px;padding-left:4px;" t-field="s.purchase_1_individual.fax_eng"/><span  style="font-size:12px;padding-left:70%;" t-field="s.purchase_1_individual.fax_arabic"/><br/><span  style="font-size:12px;padding-left:4px;" t-field="s.purchase_1_individual.phone"/><span  style="font-size:12px;padding-left:70%;" t-field="s.purchase_1_individual.phone"/><br/><span  style="font-size:12px;padding-left:4px;" t-field="s.purchase_1_individual.email"/><span  style="font-size:12px;padding-left:30%;" t-field="s.purchase_1_individual.email"/></td>
                     <td style="width: 15%; border-top: 1px solid black; border-right: 1px solid black; text-align: right; font-size: 13px;"><strong>:فيما يتعلق بالأشخاص</strong> <br /> :الجنسية <br />:رقم جواز السفر  <br /> :رقم الفاكس<br />:رقم الهاتف <br />:البريد الإلكتروني</td>
                     <td style="width: 5%; border-top: 1px solid black; border-right: 1px solid black; text-align: center; font-size: 13px;"><strong></strong></td>
                     </tr>
@@ -121,7 +121,7 @@
                     <tr>
                     <td style="width: 5%; border-top: 1px solid black; border-right: 1px solid black; border-left: 1px solid black; text-align: center; font-size: 13px;"><strong> </strong></td>
                     <td style="width: 15%; border-top: 1px solid black; border-right: 1px solid black; border-left: 1px solid black; font-size: 13px; padding-left: 4px;"><strong>For individual:</strong> <br /> Nationality <br /> Passport No: <br />  Fax No: <br /> Phone No: <br />Email address:</td>
-                        <td style="width: 60%; border-top: 1px solid black; border-right: 1px solid black; border-left: 1px solid black; font-size: 13px; padding-left: 4px;"><br/><span  style="font-size:12px;padding-left:4px;" t-field="s.purchase_2_individual.country_id.name"/><span  style="font-size:12px;padding-left:70%;" t-field="s.purchase_2_individual.country_arabic.name"/><br/><span  style="font-size:12px;padding-left:4px;" t-field="s.purchase_2_individual.passport_eng"/><span  style="font-size:12px;padding-left:72%;" t-field="s.purchase_2_individual.passport_arabic"/><br/><span  style="font-size:12px;padding-left:4px;" t-field="s.purchase_2_individual.fax_eng"/><span  style="font-size:12px;padding-left:70%;" t-field="s.purchase_2_individual.fax_arabic"/><br/><span  style="font-size:12px;padding-left:4px;" t-field="s.purchase_2_individual.phone"/><span  style="font-size:12px;padding-left:70%;" t-field="s.purchase_2_individual.phone"/><br/><span  style="font-size:12px;padding-left:4px;" t-field="s.purchase_2_individual.email"/><span  style="font-size:12px;padding-left:30%;" t-field="s.purchase_2_individual.email"/></td>
+                        <td style="width: 60%; border-top: 1px solid black; border-right: 1px solid black; border-left: 1px solid black; font-size: 13px; padding-left: 4px;"><br/><span  style="font-size:12px;padding-left:4px;" t-field="s.purchase_2_individual.country_id.name"/><span  style="font-size:12px;padding-right:4px;text-right"   t-field="s.purchase_2_individual.country_arabic.name"/><br/><span  style="font-size:12px;padding-left:4px;" t-field="s.purchase_2_individual.passport_eng"/><span  style="font-size:12px;padding-left:72%;" t-field="s.purchase_2_individual.passport_arabic"/><br/><span  style="font-size:12px;padding-left:4px;" t-field="s.purchase_2_individual.fax_eng"/><span  style="font-size:12px;padding-left:70%;" t-field="s.purchase_2_individual.fax_arabic"/><br/><span  style="font-size:12px;padding-left:4px;" t-field="s.purchase_2_individual.phone"/><span  style="font-size:12px;padding-left:70%;" t-field="s.purchase_2_individual.phone"/><br/><span  style="font-size:12px;padding-left:4px;" t-field="s.purchase_2_individual.email"/><span  style="font-size:12px;padding-left:30%;" t-field="s.purchase_2_individual.email"/></td>
                     <td style="width: 15%; border-top: 1px solid black; border-right: 1px solid black; text-align: right; font-size: 13px;"><strong>:فيما يتعلق بالأشخاص</strong> <br /> :الجنسية <br />:رقم جواز السفر الجنسية <br />    :رقم الفاكس<br />رقم الهاتف <br />:البريد الإلكتروني</td>
                     <td style="width: 5%; border-top: 1px solid black; border-right: 1px solid black; text-align: center; font-size: 13px;"><strong></strong></td>
                     </tr>
@@ -184,7 +184,7 @@
 <td style="width: 10%; border-top: 1px solid black; border-right: 1px solid black; border-left: 1px solid black; font-size: 13px; padding-left: 4px;"><strong>Property Details: </strong></td>
 <td style="width: 10%; font-size: 13px; padding-left: 4px; border: 1px solid black;">Location</td>
 <td style="width: 25%; font-size: 13px; color: red; padding-left: 4px; border: 1px solid black;"><span  style="font-size:12px;padding-left:4px;" t-field="s.location"/></td>
-<td style="width: 25%; font-size: 13px; color: red; padding-left: 4px; border: 1px solid black;">قطعة رقم 119 بجوار ريسورتز من دانوب –البرشاء جنوب 3– أرجان – دبي – الإمارات </td>
+<td style="width: 25%; font-size: 13px; color: red; padding-left: 4px; border: 1px solid black;"><span  style="font-size:12px;padding-left:4px;" t-field="s.location_arabic"/> </td>
 <td style="width: 10%; font-size: 13px; padding-left: 4px; border-right: 1px solid black;border-bottom: 1px solid black;border-top: 1px solid black;">:الموقع</td>
 <td style="width: 10%; border-top: 1px solid black; border-right: 1px solid black; text-align: right; font-size: 13px;"><strong>:اتفاصيل العقار </strong></td>
 <td style="width: 5%;  border-right: 1px solid black; text-align: center; font-size: 13px;"></td>
@@ -217,7 +217,7 @@
 <td style="width: 5%;border-bottom: 1px solid black; border-top: 1px solid black; border-right: 1px solid black; border-left: 1px solid black; text-align: center; font-size: 13px;">6</td>
 <td style="width: 10%;border-bottom: 1px solid black; border-top: 1px solid black; border-right: 1px solid black; border-left: 1px solid black; font-size: 13px; padding-left: 4px;"><strong>Escrow Account </strong></td>
 <td style="width: 10%;border-bottom: 1px solid black; font-size: 13px; padding-left: 4px; border: 1px solid black;">Account Name</td>
-<td style="width: 25%;border-bottom: 1px solid black; font-size: 13px; padding-left: 4px; border: 1px solid black;">MARQUIS CIRCLE REAL ESTATE DEVELOPER LLC</td>
+<td style="width: 25%;border-bottom: 1px solid black; font-size: 13px; padding-left: 4px; border: 1px solid black;"><span  style="font-size:12px;padding-left:4px;" t-field="s.bank_details.account_name"/></td>
 <td style="width: 25%;border-bottom: 1px solid black; font-size: 13px; padding-left: 4px;color: red; border: 1px solid black;">:اسم الحساب</td>
 <td style="width: 10%;border-bottom: 1px solid black; font-size: 13px; padding-left: 4px; border-top: 1px solid black;"></td>
 <td style="width: 10%;border-bottom: 1px solid black; border-top: 1px solid black; border-right: 1px solid black; text-align: right; font-size: 13px;"><strong>:حساب الضمان </strong></td>
@@ -227,7 +227,7 @@
 <td style="width: 5%; border-right: 1px solid black; border-left: 1px solid black; text-align: center; font-size: 13px;"></td>
 <td style="width: 10%; border-right: 1px solid black; border-left: 1px solid black; font-size: 13px; padding-left: 4px;"></td>
 <td style="width: 10%; font-size: 13px; padding-left: 4px; border: 1px solid black;">Account No</td>
-<td style="width: 25%; font-size: 13px; color: red; padding-left: 4px; border: 1px solid black;">3718331820701</td>
+<td style="width: 25%; font-size: 13px; color: red; padding-left: 4px; border: 1px solid black;"><span  style="font-size:12px;padding-left:4px;" t-field="s.bank_details.account_no"/></td>
 <td style="width: 25%; font-size: 13px; color: red; padding-left: 4px; border: 1px solid black;">:رقم الحساب</td>
 <td style="width: 10%; font-size: 13px; padding-left: 4px;"></td>
 <td style="width: 10%; border-right: 1px solid black; text-align: right; font-size: 13px;"></td>
@@ -237,7 +237,7 @@
 <td style="width: 5%; border-right: 1px solid black; border-left: 1px solid black; text-align: center; font-size: 13px;"></td>
 <td style="width: 10%; border-right: 1px solid black; border-left: 1px solid black; font-size: 13px; padding-left: 4px;"></td>
 <td style="width: 10%; font-size: 13px; padding-left: 4px; border: 1px solid black;">IBAN</td>
-<td style="width: 25%; font-size: 13px; color: red; padding-left: 4px; border: 1px solid black;">AE850340003718331820701</td>
+<td style="width: 25%; font-size: 13px; color: red; padding-left: 4px; border: 1px solid black;"><span  style="font-size:12px;padding-left:4px;" t-field="s.bank_details.IBAN"/></td>
 <td style="width: 25%; font-size: 13px; color: red; padding-left: 4px; border: 1px solid black;"></td>
 <td style="width: 10%; font-size: 13px; padding-left: 4px;"></td>
 <td style="width: 10%; border-right: 1px solid black; text-align: right; font-size: 13px;"></td>
@@ -247,7 +247,7 @@
 <td style="width: 5%;border-bottom: 1px solid black; border-right: 1px solid black; border-left: 1px solid black; text-align: center; font-size: 13px;"></td>
 <td style="width: 10%;border-bottom: 1px solid black; border-right: 1px solid black; border-left: 1px solid black; font-size: 13px; padding-left: 4px;"></td>
 <td style="width: 10%; font-size: 13px; padding-left: 4px;border-bottom: 1px solid black;border-top: 1px solid black; border-right: 1px solid black; border-left: 1px solid black;">SWIFT</td>
-<td style="width: 25%; font-size: 13px;  padding-left: 4px;border-bottom: 1px solid black; border-top: 1px solid black; border-right: 1px solid black; border-left: 1px solid black;">MEBLAEAD</td>
+<td style="width: 25%; font-size: 13px;  padding-left: 4px;border-bottom: 1px solid black; border-top: 1px solid black; border-right: 1px solid black; border-left: 1px solid black;"><span  style="font-size:12px;padding-left:4px;" t-field="s.bank_details.swift"/></td>
 <td style="width: 25%; font-size: 13px; color: red; padding-left: 4px;border-bottom: 1px solid black; border-top: 1px solid black; border-right: 1px solid black; border-left: 1px solid black;"></td>
 <td style="width: 10%; font-size: 13px; padding-left: 4px;border-bottom: 1px solid black;"></td>
 <td style="width: 10%; border-right: 1px solid black; text-align: right; font-size: 13px;border-bottom: 1px solid black;"></td>
@@ -260,7 +260,7 @@
 <tr>
 <td style="width: 5%; border-top: 1px solid black; border-right: 1px solid black; border-left: 1px solid black; text-align: center; font-size: 13px;"><strong>7</strong></td>
 <td style="width: 20%; border-top: 1px solid black; border-right: 1px solid black; border-left: 1px solid black; font-size: 13px; padding-left: 4px;"><strong>Anticipated Completion Date: </strong></td>
-    <td style="width: 25%; border-top: 1px solid black; border-right: 1px solid black; border-left: 1px solid black; font-size: 13px; padding-left: 4px;"><span style="color-red;">31 December 2023,</span> subject to extension in accordance with Clause 4.1.</td>
+    <td style="width: 25%; border-top: 1px solid black; border-right: 1px solid black; border-left: 1px solid black; font-size: 13px; padding-left: 4px;"><span  style="font-size:12px;padding-left:4px;" t-field="s.anticipated_completion_date"/></td>
 <td style="width: 25%; border-top: 1px solid black; border-right: 1px solid black; border-left: 1px solid black; font-size: 13px; padding-left: 4px;">31 ديسمبر 2023 مع الالتزام بالتمديد بموجب البند 4-1.</td>
 <td style="width: 20%; border-top: 1px solid black; border-right: 1px solid black; text-align: right; font-size: 13px;"><strong>:تاريخ الإنجاز المتوقع </strong></td>
 <td style="width: 5%; border-top: 1px solid black; border-right: 1px solid black; text-align: center; font-size: 13px;"><strong>7</strong></td>
@@ -277,7 +277,15 @@
 <td style="width: 5%; border-top: 1px solid black; border-right: 1px solid black; border-left: 1px solid black;border-bottom: 1px solid black; text-align: center; font-size: 13px;"><strong>9</strong></td>
 <td style="width: 20%; border-top: 1px solid black; border-right: 1px solid black; border-left: 1px solid black;border-bottom: 1px solid black; font-size: 13px; padding-left: 4px;"><strong>Late Payment Fee</strong>:</td>
 <td style="width: 25%; border-top: 1px solid black; border-right: 1px solid black; border-left: 1px solid black;border-bottom: 1px solid black; font-size: 13px; padding-left: 4px;">1% per month.</td>
-<td style="width: 25%; border-top: 1px solid black; border-right: 1px solid black; border-left: 1px solid black;border-bottom: 1px solid black; font-size: 13px; padding-left: 4px;">% شهرياً.</td>
+<td style="width: 25%; border-top: 1px solid black; border-right: 1px solid black; border-left: 1px solid black;border-bottom: 1px solid black; font-size: 13px; padding-left: 4px;"><span  style="font-size:12px;padding-right:4px;text-right arabic" t-field="s.purchase_1_individual.country_arabic.name"/></td>
+<td style="width: 20%; border-top: 1px solid black; border-right: 1px solid black; text-align: right;border-bottom: 1px solid black; font-size: 13px;"><strong>:رسم الدفعة المتأخرة</strong></td>
+<td style="width: 5%; border-top: 1px solid black; border-right: 1px solid black; text-align: center;border-bottom: 1px solid black; font-size: 13px;"><strong>9</strong></td>
+</tr>
+<tr>
+<td style="width: 5%; border-top: 1px solid black; border-right: 1px solid black; border-left: 1px solid black;border-bottom: 1px solid black; text-align: center; font-size: 13px;"><strong>9</strong></td>
+<td style="width: 20%; border-top: 1px solid black; border-right: 1px solid black; border-left: 1px solid black;border-bottom: 1px solid black; font-size: 13px; padding-left: 4px;"><strong>For Testing</strong>:</td>
+<td style="width: 25%; border-top: 1px solid black; border-right: 1px solid black; border-left: 1px solid black;border-bottom: 1px solid black; font-size: 13px; padding-left: 4px;"><span  style="font-size:12px;padding-left:4px;" t-field="s.purchase_1_individual.country_id.name"/></td>
+<td style="width: 25%; border-top: 1px solid black; border-right: 1px solid black; border-left: 1px solid black;border-bottom: 1px solid black; font-size: 13px; padding-left: 4px;" class="text-right"><span  style="font-size:12px;padding-right:4px;text-right arabic" t-field="s.purchase_1_individual.country_arabic.name"/></td>
 <td style="width: 20%; border-top: 1px solid black; border-right: 1px solid black; text-align: right;border-bottom: 1px solid black; font-size: 13px;"><strong>:رسم الدفعة المتأخرة</strong></td>
 <td style="width: 5%; border-top: 1px solid black; border-right: 1px solid black; text-align: center;border-bottom: 1px solid black; font-size: 13px;"><strong>9</strong></td>
 </tr>

@@ -1,11 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <openerp>
+<!--<report-->
+<!--            id="report_ali_sale_order"-->
+<!--            model="sale.order"-->
+<!--            report_type="qweb-pdf"-->
+<!--            string="Sale Agreement"-->
+<!--            name="ol_sales_agreement_report.ali_sale_order_template"-->
+<!--            file="ol_sales_agreement_report.ali_sale_order_template"-->
+<!--        />-->
 <report
-            id="report_ali_sale_order"
+            id="report_final_sale_order"
             model="sale.order"
             report_type="qweb-pdf"
-            string="Ali Sale Agreement"
-            name="ol_sales_agreement_report.ali_sale_order_template"
-            file="ol_sales_agreement_report.ali_sale_order_template"
+            string="Sale Agreement"
+            name="ol_sales_agreement_report.final_sale_order_template"
+            file="ol_sales_agreement_report.final_sale_order_template"
         />
 </openerp>
