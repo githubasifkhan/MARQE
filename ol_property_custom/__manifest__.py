@@ -9,7 +9,7 @@
     "version": "15.0.1",
 
     "depends": [
-        'project','sale_management'
+        'project','sale_management', 'contacts', 'product', 'crm', 'ol_sales_agreement_report', 'account',
     ],
 
     "data": [
@@ -17,7 +17,8 @@
         'wizard/create_building.xml',
         'views/so_inherit.xml',
         'views/main_view.xml',
-        
+        # 'views/installment_invoice_button.xml',
+
     ],
     
     "images": [ ],
