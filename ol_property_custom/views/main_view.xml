@@ -257,11 +257,8 @@
                         <field name="sale_order" />
                         <field name="short_name"/>
                         <field name="code"/>
-                        <field name="project"/>
                         <field name="building"/>
                         <field name="floor_id"/>
-                        
-
                     </group>
                     
                     <group >
