@@ -17,6 +17,7 @@
         'wizard/create_building.xml',
         'views/so_inherit.xml',
         'views/main_view.xml',
+        'views/fields.xml',
         # 'views/installment_invoice_button.xml',
 
     ],

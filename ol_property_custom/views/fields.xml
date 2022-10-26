@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="sales_fields" model="ir.ui.view">
+        <field name="name">sale.order.form</field>
+        <field name="model">sale.order</field>
+        <field name="inherit_id" ref="sale.view_order_form"></field>
+        <field name="arch" type="xml">
+
+         <!-- Invoice feilds display on left -->
+        <xpath expr="//field[@name='sale_order_template_id']" position="after">
+             <field name="project"></field>
+             <field name="building"></field>
+             <field name="floor"></field>
+             <field name="unit"></field>
+        
+        </xpath>
+        </field>
+    </record>
+
+      <record id="invoice_fields" model="ir.ui.view">
+        <field name="name">account.move.form</field>
+        <field name="model">account.move</field>
+        <field name="inherit_id" ref="account.view_move_form"></field>
+        <field name="arch" type="xml">
+
+         <!-- Invoice feilds display on left -->
+        <xpath expr="//field[@name='payment_reference']" position="after">
+             <field name="project"></field>
+             <field name="building"></field>
+             <field name="floor"></field>
+             <field name="unit"></field>
+        
+        </xpath>
+        </field>
+    </record>
+
+      <record id="stock_fields" model="ir.ui.view">
+        <field name="name">stock.picking.form</field>
+        <field name="model">stock.picking</field>
+        <field name="inherit_id" ref="stock.view_picking_form"></field>
+        <field name="arch" type="xml">
+        <xpath expr="//field[@name='picking_type_id']" position="after">
+             <field name="project"></field>
+             <field name="building"></field>
+             <field name="floor"></field>
+             <field name="unit"></field>
+        
+        </xpath>
+        </field>
+    </record>
+</odoo>
