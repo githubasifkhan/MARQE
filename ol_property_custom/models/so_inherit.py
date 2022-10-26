@@ -28,7 +28,31 @@ class purchaser(models.Model):
 class payment(models.Model):
     _inherit = 'account.move'
     so_ids = fields.Many2one(comodel_name='sale.order')
+    # per_invoices = fields.Integer(string='% of installment')
+    #
+    #
+    # @api.onchange('invoice_line_ids','invoice_line_ids.percentage_of_invoice')
+    # def treeview(self):
+    #
+    #     self.per_invoices = self.invoice_line_ids.percentage_of_invoice
+    #     print(self.per_invoices)
+
+
+
     # payment_id = fields.Many2one(comodel_name='sale.order',relation='payment_terms_ids', string="Sale Order")
+
+class subtotal(models.Model):
+    _inherit = 'account.move.line'
+
+    subtotal_so = fields.Integer(string='Subtotal of SO')
+    percentage_of_invoice = fields.Integer(String='% of installment', compute='substraction')
+
+
+    def substraction(self):
+        self.percentage_of_invoice = (self.price_subtotal / float(self.subtotal_so))*100
+        print(self.percentage_of_invoice)
+
+
 
 
 class saleorderline(models.Model):
@@ -131,6 +155,7 @@ class OLStartDate(models.Model):
             'campaign_id': order.campaign_id.id,
             'medium_id': order.medium_id.id,
             'source_id': order.source_id.id,
+            'so_ids': order.id,
             'invoice_line_ids': [(0, 0, {
                 'name': so_line.name,
                 'price_unit': order.down_payment_amount,
@@ -141,6 +166,8 @@ class OLStartDate(models.Model):
                 'sale_line_ids': [(6, 0, [so_line.id])],
                 'analytic_tag_ids': [(6, 0, so_line.analytic_tag_ids.ids)],
                 'analytic_account_id': order.analytic_account_id.id or False,
+                'subtotal_so': so_line.price_subtotal,
+
             })],
         }
         invoice = self.env['account.move'].with_company(order.company_id) \
@@ -176,6 +203,8 @@ class OLStartDate(models.Model):
                     'campaign_id': order.campaign_id.id,
                     'medium_id': order.medium_id.id,
                     'source_id': order.source_id.id,
+                    'so_ids': order.id,
+
                     'invoice_line_ids': [(0, 0, {
                         'name': so_line.name,
                         'price_unit': order.installment_amount,
@@ -186,6 +215,10 @@ class OLStartDate(models.Model):
                         'sale_line_ids': [(6, 0, [so_line.id])],
                         'analytic_tag_ids': [(6, 0, so_line.analytic_tag_ids.ids)],
                         'analytic_account_id': order.analytic_account_id.id or False,
+                        'subtotal_so': so_line.price_subtotal,
+
+
+
                     })],
                 }
                 invoice = self.env['account.move'].with_company(order.company_id) \
@@ -220,6 +253,7 @@ class OLStartDate(models.Model):
                     'campaign_id': order.campaign_id.id,
                     'medium_id': order.medium_id.id,
                     'source_id': order.source_id.id,
+                    'so_ids': order.id,
                     'invoice_line_ids': [(0, 0, {
                         'name': so_line.name,
                         'price_unit': order.installment_amount,
@@ -230,6 +264,8 @@ class OLStartDate(models.Model):
                         'sale_line_ids': [(6, 0, [so_line.id])],
                         'analytic_tag_ids': [(6, 0, so_line.analytic_tag_ids.ids)],
                         'analytic_account_id': order.analytic_account_id.id or False,
+
+
                     })],
                 }
                 invoice = self.env['account.move'].with_company(order.company_id) \
@@ -259,6 +295,7 @@ class OLStartDate(models.Model):
                     'campaign_id': order.campaign_id.id,
                     'medium_id': order.medium_id.id,
                     'source_id': order.source_id.id,
+                    'so_ids': order.id,
                     'invoice_line_ids': [(0, 0, {
                         'name': so_line.name,
                         'price_unit': order.installment_amount,
@@ -269,6 +306,8 @@ class OLStartDate(models.Model):
                         'sale_line_ids': [(6, 0, [so_line.id])],
                         'analytic_tag_ids': [(6, 0, so_line.analytic_tag_ids.ids)],
                         'analytic_account_id': order.analytic_account_id.id or False,
+
+
                     })],
                 }
                 invoice = self.env['account.move'].with_company(order.company_id) \
@@ -299,6 +338,7 @@ class OLStartDate(models.Model):
                     'campaign_id': order.campaign_id.id,
                     'medium_id': order.medium_id.id,
                     'source_id': order.source_id.id,
+                    'so_ids': order.id,
                     'invoice_line_ids': [(0, 0, {
                         'name': so_line.name,
                         'price_unit': order.installment_amount,
@@ -309,6 +349,8 @@ class OLStartDate(models.Model):
                         'sale_line_ids': [(6, 0, [so_line.id])],
                         'analytic_tag_ids': [(6, 0, so_line.analytic_tag_ids.ids)],
                         'analytic_account_id': order.analytic_account_id.id or False,
+
+
                     })],
                 }
                 invoice = self.env['account.move'].with_company(order.company_id) \

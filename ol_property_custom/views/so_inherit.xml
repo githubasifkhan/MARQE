@@ -102,9 +102,25 @@
             <xpath expr="//field[@name='payment_reference']" position="after">
                 <field name="so_ids" string="Sale Order ID"/>
             </xpath>
+                <xpath expr="//field[@name='price_total']" position="after">
+                    <field name="percentage_of_invoice" />
+                    <field name="subtotal_so" widget="monetary"/>
+
+                </xpath>
 
             </field>
         </record>
+<!--        <record id="account_move_inheritance_tree" model="ir.ui.view">-->
+<!--            <field name="name">account.move.tree</field>-->
+<!--            <field name="model">account.move.line</field>-->
+<!--            <field name="inherit_id" ref="account.view_invoice_tree"/>-->
+<!--            <field name="arch" type="xml">-->
+<!--            <xpath expr="//field[@name='activity_ids']" position="after">-->
+<!--                <field name="percentage_of_invoice" string="Installment Percentage"/>-->
+<!--            </xpath>-->
+
+<!--            </field>-->
+<!--        </record>-->
 
 
 
